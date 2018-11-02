@@ -1,0 +1,282 @@
+body{
+	font-family: Poppins;
+}
+header{
+	border-bottom: 1px solid #f0f0f0;
+    padding: 1em 0;
+	margin-bottom: 1em;
+	position: relative;
+}
+
+
+nav{
+	background: none !important;
+}
+
+
+/* =======Successful Message=========== */
+.successfulMessage{
+	position: absolute;
+	left: 50%;
+	top: 0px;
+	z-index: 5;
+
+}
+
+
+
+
+ul li.nav-item{
+	margin-left: 25px;
+	margin-right: 25px;
+    border: 1px solid #333;
+}
+ul li.nav-item a{
+	font-size: 18px;
+	font-weight: bold;
+	color: #E58222 !important;
+}
+
+
+
+
+#showContent .fa-trash{
+	color:red !important;
+}
+
+#carts_product_show .fa-trash{
+	color: red !important;
+}
+
+.button_part{
+	position: relative;
+
+}
+
+
+#show_carts_item{
+	position: absolute;
+	top:50px;
+	right: 0;
+	width: 300px;
+	z-index: 11;
+    display: block;
+    background: rgba(229,130,34,.7);
+}
+
+#cart_count{
+	color:rgb(209, 204, 204)
+}
+
+#show_carts_item i{
+	color:red;
+}
+#show_carts_item li{
+	list-style: none;
+}
+
+	
+
+
+/* ============Cart toggle============ */
+.shooping_wrap{
+	border: 2px solid #333;
+    padding: 0px 0px;
+    width: 200px;
+}
+
+#toggle_btn{
+	background: none;
+    color: #E58222;
+    font-weight: bold;
+	border: 0px;
+	border: none;
+	box-shadow: none;
+}
+
+
+.button_icon_part {
+	border-right: 2px solid #343a40;
+    margin-left: 5px !important;
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+#cart_count {
+    font-size: 16px;
+    margin-left: 5px;
+	margin-right: 5px;
+	color: #343a40;
+	font-weight: 600;
+
+}
+
+.fa-shopping-cart{
+	color: #E58222 !important;
+	margin-right: 5px;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+
+
+.card{
+	border-radius: none !important;
+    padding: 2em 0px 0px 0em;
+	margin: 1em 1em;
+	
+    /* height: 300px; */
+}
+
+
+.single_product .card{
+	background: none;
+}
+.single_product:nth-child(1){
+	background-image: url("https://res.cloudinary.com/urbanclap/image/upload/t_high_res_portfolio_medium/images/575bce4636cd78485928b5de/1481525688636-140df8735a0c8318c4c73d0db5d9688e.jpeg");
+	background-position: center;
+	background-size: cover
+}
+.single_product:nth-child(2){
+	background-image: url("https://www.pinholemedia.com/img/s/v-3/p466998069-4.jpg");
+	background-position: center;
+	background-size: cover
+}
+
+.single_product:nth-child(3){
+	background-image: url("http://littlestories.in/wp-content/uploads/2016/11/Newborn-Baby-Kids-Photography-in-Delhi-Gurgaon-Noida-3-1620x1080.jpg");
+	background-position: center;
+	background-size: cover
+}
+
+.single_product:nth-child(4){
+	background-image: url("http://littlestories.in/wp-content/uploads/2016/11/little-stories-kids-baby-photography-delhi-noida-gurgaon-work-17.jpg");
+	background-position: center;
+	background-size: cover;
+	
+}
+.single_product:nth-child(5){
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsIzVt4AoHa2k8X8GcOoF_QSAa_wSvVh7lnFeA4f0t_DZHi1FTCw");
+	background-position: center;
+	background-size: cover;
+	
+}
+
+.single_product:nth-child(6){
+	background-image: url("http://ljhollowayphotography.com/wp-content/uploads/2016/09/Las-Vegas-Child-Photographer-LJHolloway-Photography-Children0284.jpg");
+	background-position: center;
+	background-size: cover;
+	
+}
+
+.single_product:nth-child(7){
+	background-image: url("http://www.photographybybarbi.com/uploads/4/3/3/8/43382093/michael-matthew-aug-27-2017-8-56856_orig.png");
+	background-position: center;
+	background-size: cover;
+	
+}
+.single_product:nth-child(8){
+	background-image: url("http://littlestories.in/wp-content/uploads/2016/11/Kids-Photography-Delhi-Noida-Gurgaon-9.jpg");
+	background-position: center;
+	background-size: cover;
+	
+}
+
+
+
+
+
+.single_product{
+	transition: all .3s ease-in-out;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+	border: 1px solid rgba(0, 0, 0, .5);
+	padding : 10px;
+	margin-bottom: 5px
+}
+.single_product .card{
+	background: none;
+	border: none;
+	position: relative;
+	box-shadow: rgba(0,0,0,.5);
+	width: 100%;
+	height: 100%;
+	top:0;
+	left:0;
+	margin:0em;
+	display: block 
+	
+}
+.single_product:hover .card{
+	display: block
+}
+
+
+
+
+.single_product:hover{
+	box-shadow:inset 0 0 0 1000px rgba(0,0,0,.46);
+	color:#fff;
+	transform: scale(1.01);
+}
+
+.single_product:hover .Buy_item{
+	display:block;
+	background: #e58222;
+	border:1px solid #fff;
+}
+
+.Buy_item{
+	display: block;
+	background: #e58222;
+	position: absolute;
+    bottom: 15px;
+    left: 0;
+	width: 100%;
+	transition: all .3s ease-in-out;
+	border-color:none;
+}
+.Buy_item:active{
+	
+    
+}
+
+.Buy_item:not(:disabled):not(.disabled):active{
+	border:none;
+	background: none;
+	color:#fff
+}
+.single_product .card{
+	/* padding-top: 25%; */
+}
+.content_p{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: all .2s ease-in-out;
+}
+
+.single_product:hover .content_p{
+	bottom:35%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+footer .card{
+	border-right: 0px;
+    margin: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    margin-top: 40px;
+}
+
+.successBtn{
+	display: block;
+	position: relative;
+	z-index: 200;
+	left: 20px;
+	top: 30px
+}
